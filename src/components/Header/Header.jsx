@@ -1,7 +1,7 @@
-import './Header.css';
+import styles from './Header.module.css';
 
 function Header({ children }) {
-	return <div className="logo">Personal Journal</div>;
+	return <div className={styles.logo}>Personal Journal</div>;
 }
 
 export default Header;
